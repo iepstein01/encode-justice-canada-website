@@ -3,11 +3,19 @@
 }
 
 a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
     text-decoration: none;
     text-decoration: underline;
     color: initial;
 }
+/*
+body, html {
+    background-image: url("./assets/background-img.jpg");
+}
+
+body {
+
+}
+
+.accordion-header {
+}
+*/
