@@ -1,0 +1,13 @@
+.accordion .btn {
+  white-space: normal;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    text-decoration: underline;
+    color: initial;
+}
