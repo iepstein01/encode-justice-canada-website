@@ -1,0 +1,11 @@
+.navbar {
+    font-family: IBM-Plex-Sans-Bold;
+    font-size: 22px;
+}
+
+.brand-img {
+    background-image: url("./images/logo.jpg");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+}

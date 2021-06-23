@@ -1,0 +1,5 @@
+.navbar-item:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 3px;
+}
