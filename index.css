@@ -62,6 +62,10 @@ body, html {
 	background-color: #484fb6;
 }
 
+.form span {
+	background-color: #c8d1db;
+}
+
 /* Icons */
 .icon-button i {
 	background: none;
@@ -105,8 +109,20 @@ body, html {
     background-position: center;
     background-size: 75%;
 }
+
+.icon-button .icon-form {
+	border: 2px solid #c8d1db;
+	border-radius: 50%;
+	color: #c8d1db;
+    background-image: url("images/form.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
 .icon-button:hover .icon-twitter,
 .icon-button:hover .icon-instagram,
-.icon-button:hover .icon-mail {
+.icon-button:hover .icon-mail
+.icon-button:hover .icon-form {
 	color: white;
 }
