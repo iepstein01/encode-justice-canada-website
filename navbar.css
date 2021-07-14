@@ -9,3 +9,11 @@
     width: 60px;
     height: 60px;
 }
+
+.is-size-1, .is-size-2  {
+    font-family: Bitter;
+}
+
+p, li, .is-size-4 {
+    font-family: MuktaVaani;
+}

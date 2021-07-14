@@ -3,7 +3,7 @@ body, html {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/bg.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/bg.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/bg\ copy.png"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/bg\ copy.png"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/bg\ copy.png");
     background-position: center, center, center;
 }
 
@@ -11,6 +11,31 @@ body, html {
     text-decoration: underline;
     text-underline-offset: 2px;
     text-decoration-thickness: 3px;
+}
+
+.middle-section {
+	/*background-color: #001A23;*/
+	/*background-color: #1A1F16;*/
+	background-color: #28536B;
+	color: white;
+}
+
+.footer-section {
+	/*background-color: #E8F1F2;*/
+	/*background-color: #607465;*/
+	background-color: #75747B;
+}
+
+.education-block {
+	background-color: #C2948A;
+}
+
+.policy-block {
+	background-color: #BBB193;
+}
+
+.advocacy-block {
+	background-color: #7EA8BE;
 }
 
 .icon-button {

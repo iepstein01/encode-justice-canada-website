@@ -27,3 +27,18 @@
     font-family: TisaSansPro;
     src: url("./fonts/TisaSansPro-Regular.woff2") format("woff2");
 }
+
+@font-face {
+    font-family: Bitter;
+    src: url("./fonts/Bitter-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: MuktaVaani;
+    src: url("./fonts/MuktaVaani-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: SortsMillGoudy;
+    src: url("./fonts/SortsMillGoudy-Regular.woff2") format("woff2");
+}
