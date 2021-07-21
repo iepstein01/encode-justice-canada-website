@@ -16,43 +16,43 @@
 </head>
 
 <body>
-    <nav class="navbar is-transparent"">
-        <div class=" container" style="padding-left: 150px; padding-right: 150px;">
-        <div class=" navbar-brand">
-            <a class="navbar-item" href="index.html">
-                <div class="brand-img"></div>
-            </a>
-            <div class="navbar-burger" data-target="navbarMenu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        <div id="navbarMenu" class="navbar-menu">
-            <div class="navbar-end">
+    <nav class="navbar is-transparent">
+        <div class="container is-max-desktop">
+            <div class="navbar-brand">
                 <a class="navbar-item" href="index.html">
-                    Home
-                </a>
-                <a class="navbar-item  is-active" href="about.html">
-                    About
-                </a>
-                <a class="navbar-item" href="advocacy.html">
-                    Advocacy
-                </a>
-                <a class="navbar-item" href="education.html">
-                    Education
-                </a>
-                <a class="navbar-item" href="policy.html">
-                    Policy
-                </a>
-                <a class="navbar-item" href="nodes.html">
-                    Nodes
-                </a>
-                <a class="navbar-item" href="contact.html">
-                    Contact
+                    <div class="brand-img"></div>
                 </a>
             </div>
-        </div>
+            <div role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </div>
+            <div class="navbar-menu" id="navMenu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="index.html">
+                        Home
+                    </a>
+                    <a class="navbar-item is-active" href="about.html">
+                        About
+                    </a>
+                    <a class="navbar-item" href="advocacy.html">
+                        Advocacy
+                    </a>
+                    <a class="navbar-item" href="education.html">
+                        Education
+                    </a>
+                    <a class="navbar-item" href="policy.html">
+                        Policy
+                    </a>
+                    <a class="navbar-item" href="nodes.html">
+                        Nodes
+                    </a>
+                    <a class="navbar-item" href="contact.html">
+                        Contact
+                    </a>
+                </div>
+            </div>
         </div>
     </nav>
     <div class="container is-max-widescreen" style="padding-left: 150px; padding-right: 150px;">
@@ -217,42 +217,6 @@
             }
 
         });
-
-        let tabsWithContent = (function () {
-            let tabs = document.querySelectorAll('.tabs li');
-            let tabsContent = document.querySelectorAll('.tab-content');
-
-            let deactvateAllTabs = function () {
-                tabs.forEach(function (tab) {
-                    tab.classList.remove('is-active');
-                });
-            };
-
-            let hideTabsContent = function () {
-                tabsContent.forEach(function (tabContent) {
-                    tabContent.classList.remove('is-active');
-                });
-            };
-
-            let activateTabsContent = function (tab) {
-                tabsContent[getIndex(tab)].classList.add('is-active');
-            };
-
-            let getIndex = function (el) {
-                return [...el.parentElement.children].indexOf(el);
-            };
-
-            tabs.forEach(function (tab) {
-                tab.addEventListener('click', function () {
-                    deactvateAllTabs();
-                    hideTabsContent();
-                    tab.classList.add('is-active');
-                    activateTabsContent(tab);
-                });
-            })
-
-            tabs[0].click();
-        })();
     </script>
 </body>
 
