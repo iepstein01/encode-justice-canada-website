@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'IBM-Plex-Sans-Regular';
+    src: url("../assets/fonts/IBMPlexSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Pixelated-Mono';
+    src: url("../assets/fonts/PixelatedMono.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("../assets/fonts/Roboto-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url("../assets/fonts/Montserrat-Regular.woff2") format("woff2");
+}

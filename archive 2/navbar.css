@@ -1,0 +1,19 @@
+.navbar {
+    font-family: IBM-Plex-Sans-Bold;
+    font-size: 22px;
+}
+  
+.brand-img {
+    background-image: url("./images/logo.jpg");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+}
+
+.is-size-1, .is-size-2  {
+    font-family: Bitter;
+}
+
+p, li, .is-size-4 {
+    font-family: MuktaVaani;
+}
